@@ -31,6 +31,10 @@ By convention, step definitions are stored in the `features/step-definitions` di
 Add a directory called `step-definitions` to your `features` directory.
 Add your `belly-steps.js` file here.
 
+### Add implementation
+
+Add a `lib` directory and add your `belly.js` file here.
+
 ### Running
 
 Run the tests with `./node_modules/.bin/cucumber-js`
