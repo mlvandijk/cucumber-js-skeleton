@@ -1,0 +1,13 @@
+{
+  "name": "cucumber-js-skeleton",
+  "version": "0.1.0",
+  "description": "Cucumber-js skeleton",
+  "author": "mlvandijk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlvandijk/cucumber-js-skeleton"
+  },
+  "devDependencies": {
+    "cucumber": "^4.0.0"
+  }
+}
