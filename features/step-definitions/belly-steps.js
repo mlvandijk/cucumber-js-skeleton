@@ -1,8 +1,11 @@
 const { Before, Given, When, Then } = require('cucumber')
+const Belly = require('../../lib/belly');
 
-Given('I have {int} cukes in my belly', function (int, callback) {
-// Write code here that turns the phrase above into concrete actions
-callback(null, 'pending');
+let belly;
+
+Given('I have {int} cukes in my belly', function (int) {
+    belly = new Belly();
+    belly.eat(int);
 });
 
 
